@@ -1,0 +1,59 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.swo
+*.swp
+main
+
+# Folders
+_obj
+_test
+.vscode
+.idea/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+
+#emacs
+*#
+#*
+*~
+.#*
+
+# Macos
+.DS_Store
+._.DS_Store
+
+# Compiled go tests
+*.test 
+
+#Integration Testing
+apitest/core/data/randomPictures/*
+!apitest/core/data/randomPictures/stock.jpg
+
+#vendor builds
+vendor/pkg/*
+vendor/bin/*
+
+# Build artifacts
+build/
+dist/
+bin/
+*.iml
+
+# web build
+web/*/.cache/**
+web/*/.bin/**
+web/node_modules
