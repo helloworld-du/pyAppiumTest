@@ -1,7 +1,7 @@
 import unittest
 from appium import webdriver
 
-from config import DesiredCaps
+from config.appium import DesiredCaps
 
 
 class AppiumBaseTestCase(unittest.TestCase):

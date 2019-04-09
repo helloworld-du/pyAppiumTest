@@ -1,8 +1,8 @@
-
+#-*- coding:UTF-8 -*-
 DesiredCaps = {}
 DesiredCaps['platformName'] = 'IOS'
 DesiredCaps['platformVersion'] = '11.4'
-DesiredCaps['deviceName'] = "iPhone 六"
+DesiredCaps['deviceName'] = "海边的 iPhone"
 DesiredCaps['app'] = 'com.yaymedialabs.putong'
-DesiredCaps['udid'] = 'a1dfadb1a002c9abd66ef329b68983956ec8664b'
+DesiredCaps['udid'] = '1dc84a87726003333926891bdaca4b0860caeb67'
 DesiredCaps['autoAcceptAlerts'] = 'true'
